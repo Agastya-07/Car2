@@ -13,7 +13,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: 'https://car2-2.onrender.com', // Replace with your frontend URL
     credentials: true, // Allow cookies/auth headers if needed
   }));
 // Middleware
